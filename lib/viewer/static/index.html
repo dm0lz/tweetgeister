@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tweitgeist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Live top 10 trending hashtags on Twitter">
+    <meta name="author" content="Francois Lafortune, @quickredfox">
+
+    <!-- Le styles -->
+    <link rel="stylesheet" media="screen" href="http://assets.needium.com/lib/bootstrap/2.0/css/bootstrap.min.css" />
+
+    <!-- <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style> -->
+    <link rel="stylesheet" media="screen" href="colorsets.css" />
+    <link rel="stylesheet" media="screen" href="viewer.css" />    
+    <link rel="stylesheet" media="screen" href="http://assets.needium.com/lib/bootstrap/2.0/css/bootstrap-responsive.css" />
+
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-875987-4']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">Tweitgeist</a>
+
+          <ul class="nav">
+            <li><a href="index.html">StackedBars</a></li>
+            <li><a href="streamgraph.html">StreamGraph</a></li>
+          </ul>
+
+          <button id="reset-colors" type="button" class="btn btn-inverse pull-right">Reset Colors</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="viewer" class="container">
+      <h1 style="text-align:center;color:#DDD;margin-bottom:25px;">Live Top 10 Trending Hashtags on Twitter</h1>
+    </div> <!-- /container -->
+
+    <a href="https://github.com/colinsurprenant/tweitgeist"><img style="position: absolute; top: 40px; right: 0; border: 0;" src="https://a248.e.akamai.net/camo.github.com/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://assets.needium.com/lib/jquery/1.7.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>  
+    <script src="http://assets.needium.com/lib/bootstrap/2.0/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>  
+    <script src="viewer.js" type="text/javascript" charset="utf-8"></script>  
+
+
+    
+  </body>
+</html>
